@@ -1,7 +1,5 @@
-resource "" "name" {
-    name = "name"
-    type = "A"
-    ttl = 300
-    records = ["10.10.10.10"]
-  
+resource "aws_s3_bucket" "yan6464" {
+    bucket = "yan6464"
+    tags = "hydbd"
+    
 }
