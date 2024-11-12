@@ -40,3 +40,7 @@ resource "" "name" {
     }
   
 }
+
+removed {
+  
+}
