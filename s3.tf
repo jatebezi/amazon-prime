@@ -13,3 +13,8 @@ resource "aws_ec2_instance" "man" {
     }
   
 }
+
+resource "aws_availability_zone" "pram" {
+  
+  zone_id = "XXXXXXXXXXXXXXX"
+}
