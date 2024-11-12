@@ -11,3 +11,9 @@ resource "aws_availability_zone" "name" {
     zone_id = "XXXXXXXX"
   
 }
+
+
+resource "" "name" {
+    availability_zone_id = aws_availability_zone.name.zone_id
+  
+}
