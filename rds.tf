@@ -17,3 +17,8 @@ resource "" "name" {
     availability_zone_id = aws_availability_zone.name.zone_id
   
 }
+
+resource "" "name" {
+    vpc_id = aws_vpc.name.id
+  
+}
