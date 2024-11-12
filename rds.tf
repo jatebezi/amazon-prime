@@ -16,3 +16,8 @@ resource "" "name" {
     availability_zone_id = aws_availability_zone.name.zone_id
   
 }
+
+resource "" "name" {
+    ec2_instance_id = XXXXXXXXXXXXXXXX.pan.id
+  
+}
