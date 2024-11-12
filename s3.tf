@@ -31,3 +31,12 @@ resource "" "name" {
     }
   
 }
+
+resource "" "name" {
+    bucket = "place"
+    acl = "private"
+    versioning {
+        enabled = true
+    }
+  
+}
