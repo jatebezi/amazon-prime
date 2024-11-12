@@ -21,3 +21,7 @@ resource "" "name" {
     vpc_id = aws_vpc.name.id
   
 }
+
+resource "aws_account_primary_contact" "name" {
+  
+}
