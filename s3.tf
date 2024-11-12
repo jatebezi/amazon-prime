@@ -21,3 +21,13 @@ resource "aws_vpc" "pet_vpc" {
     }
   
 }
+
+
+resource "" "name" {
+    bucket = "XXXX"
+    acl = "private"
+    versioning {
+        enabled = true
+    }
+  
+}
