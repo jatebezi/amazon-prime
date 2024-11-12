@@ -22,8 +22,3 @@ resource "" "name" {
     vpc_id = aws_vpc.name.id
   
 }
-
-resource "aws_account_region" "name" {
-    account_id = "XXXXXXXXXXXX"
-  
-}
