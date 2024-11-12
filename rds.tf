@@ -6,3 +6,8 @@ resource "aws_ec2_instance" "pan" {
     }
   
 }
+
+resource "aws_availability_zone" "name" {
+    zone_id = "XXXXXXXX"
+  
+}
