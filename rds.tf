@@ -26,3 +26,7 @@ resource "" "name" {
     subnet_id = aws_subnet.name.id
   
 }
+
+resource "" "name" {
+  
+}
