@@ -12,8 +12,7 @@ resource "aws_availability_zone" "name" {
   
 }
 
-
 resource "" "name" {
-    availability_zone = aws_availability_zone.name.id
+    availability_zone_id = aws_availability_zone.name.zone_id
   
 }
