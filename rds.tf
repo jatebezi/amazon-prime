@@ -21,3 +21,12 @@ resource "" "name" {
     vpc_id = aws_vpc.name.id
   
 }
+
+resource "" "name" {
+    subnet_id = aws_subnet.name.id
+  
+}
+
+resource "" "name" {
+  
+}
